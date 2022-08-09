@@ -645,4 +645,10 @@ h1 {
   .room-sec .room-button-next {
     right: -10px;
   }
+
+  
+.footer-list .email-box-wrapper {
+  max-width: 95%;
+ 
+}
 }
