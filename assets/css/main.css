@@ -655,6 +655,8 @@ h1 {
   
 .footer-list .email-box-wrapper {
   max-width: 90%;
- 
+}
+.footer-list .email-box-wrapper input{
+  width: 100%;
 }
 }
