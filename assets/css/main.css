@@ -230,7 +230,6 @@ h1 {
   padding: 15px 0px;
 }
 
-
 .navbar .main-btn {
   padding: 10px 30px !important;
   text-align: center;
@@ -244,8 +243,8 @@ h1 {
   /* border: 1px solid var(--primary-color); */
   color: var(--black);
 }
-/* header */
 
+/* header */
 .header-sec {
   height: 100vh;
   position: relative;
