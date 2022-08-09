@@ -591,6 +591,11 @@ h1 {
   width: 23px;
 }
 @media only screen and (max-width: 1024px) {
+
+  
+.sec-head h3 {
+  font-size: 2.2rem
+}
   .header-sec {
     height: auto;
   }
