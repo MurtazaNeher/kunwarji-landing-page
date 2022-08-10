@@ -591,11 +591,9 @@ h1 {
   width: 23px;
 }
 @media only screen and (max-width: 1024px) {
-
-  
-.sec-head h3 {
-  font-size: 2.2rem
-}
+  .sec-head h3 {
+    font-size: 2.2rem;
+  }
   .header-sec {
     height: auto;
   }
@@ -607,10 +605,13 @@ h1 {
     position: relative;
     top: auto;
     left: unset;
-    max-width: 100%;
-  
+    max-width: 90%;
+    margin: auto;
   }
 
+  .serv-sec{
+    margin: 0;
+  }
   .serv-card {
     margin: 20px;
     flex-direction: column;
@@ -652,11 +653,10 @@ h1 {
     right: -10px;
   }
 
-  
-.footer-list .email-box-wrapper {
-  max-width: 90%;
-}
-.footer-list .email-box-wrapper input{
-  width: 100%;
-}
+  .footer-list .email-box-wrapper {
+    max-width: 90%;
+  }
+  .footer-list .email-box-wrapper input {
+    width: 100%;
+  }
 }
