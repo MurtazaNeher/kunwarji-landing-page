@@ -665,15 +665,52 @@
 
     <script>
       var swiper = new Swiper(".roomSwiper", {
-        slidesPerView: 2,
-        spaceBetween: 30,
-        slidesPerGroup: 1,
+        slidesPerView: 1,
+        spaceBetween: 10,
+        // slidesPerGroup: 1,
         loop: true,
         navigation: {
           nextEl: ".room-button-next",
           prevEl: ".room-button-prev",
         },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+        },
       });
+
+      // var swiper = new Swiper(".roomSwiper", {
+      //   slidesPerView: 1,
+      //   spaceBetween: 10,
+      //   navigation: {
+      //     nextEl: ".room-button-next",
+      //     prevEl: ".room-button-prev",
+      //   },
+      //   breakpoints: {
+      //     640: {
+      //       slidesPerView: 2,
+      //       spaceBetween: 20,
+      //     },
+      //     768: {
+      //       slidesPerView: 2,
+      //       spaceBetween: 40,
+      //     },
+      //     1024: {
+      //       slidesPerView: 2,
+      //       spaceBetween: 50,
+      //     },
+      //   },
+      // });
     </script>
 
     <!-- custom js -->
